@@ -12,7 +12,7 @@ def select_winner(passengers)
 
   passengers.each do |suite, name|
     if suite == 'suite_a' && name.firt == "A"
-      return name
+      winner = name
     end
   end
 end
