@@ -8,7 +8,9 @@
 
 def select_winner(passengers)
   # add the code snippet here!
-  passengers.collect do |suite, name|
+  winner = nil
+
+  passengers.each do |suite, name|
     if suite == 'suite_a' && name.firt == "A"
       return name
     end
